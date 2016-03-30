@@ -45,7 +45,19 @@
     ]]></description>
 
     <change-notes><![CDATA[
-      Initial release.
+      <b>1.1.1</b>
+        <ul>
+            <li>Add Setting description and screenshots</li>
+            <li>Implement refresh project tree after save Settings</li>
+        </ul>
+      <b>1.1.0</b>
+        <ul>
+            <li>Custom prefix pattern and settings UI</li>
+        </ul>
+      <b>1.0.0</b>
+        <ul>
+            <li>Initial release</li>
+        </ul>
     ]]>
     </change-notes>
 

@@ -50,24 +50,24 @@
     </change-notes>
 
     <!-- IDEA 14+ and Android Studio based off of that -->
-    <idea-version since-build="139"/>
+    <idea-version since-build="139" />
 
     <!-- IntelliJ IDEA (for Android projects) and Android Studio -->
     <depends>com.intellij.modules.platform</depends>
     <depends>org.jetbrains.android</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <treeStructureProvider implementation="com.dd.ProjectStructureProvider"/>
+        <treeStructureProvider implementation="com.dd.ProjectStructureProvider" />
     </extensions>
 
     <extensions defaultExtensionNs="com.intellij">
-        <errorHandler implementation="com.intellij.diagnostic.ITNReporter"/>
-        <applicationConfigurable instance="com.dd.SettingConfigurable"/>
+        <errorHandler implementation="com.intellij.diagnostic.ITNReporter" />
+        <applicationConfigurable instance="com.dd.SettingConfigurable" />
     </extensions>
 
     <actions>
-        <action id="ComposeAction" class="com.dd.ComposeAction">
-            <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
+        <action class="com.dd.ComposeAction" id="ComposeAction">
+            <add-to-group anchor="first" group-id="ProjectViewPopupMenu" />
         </action>
     </actions>
 

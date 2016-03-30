@@ -61,24 +61,11 @@
     </extensions>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
-    </extensions>
-
-    <application-components>
-        <!-- Add your application components here -->
-    </application-components>
-
-    <project-components>
-        <!-- Add your project components here -->
-    </project-components>
-
-    <extensions defaultExtensionNs="com.intellij">
         <errorHandler implementation="com.intellij.diagnostic.ITNReporter"/>
         <applicationConfigurable instance="com.dd.SettingConfigurable"/>
     </extensions>
 
     <actions>
-        <!-- Add your actions here -->
         <action id="ComposeAction" class="com.dd.ComposeAction">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
         </action>

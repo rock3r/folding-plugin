@@ -1,4 +1,4 @@
-<idea-plugin version="2">
+<idea-plugin version="3">
     <id>com.dmytrodanylyk.fold</id>
     <name>Android File Grouping</name>
     <version>1.1.1</version>
